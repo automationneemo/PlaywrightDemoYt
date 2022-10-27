@@ -1,0 +1,4 @@
+Nice to meet you now !
+class {
+	String name = "Mohammed";
+}

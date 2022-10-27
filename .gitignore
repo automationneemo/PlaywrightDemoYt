@@ -1,0 +1,3 @@
+sometests/
+.pytest_cache/
+.idea/
