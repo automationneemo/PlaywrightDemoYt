@@ -7,7 +7,6 @@ def test_file_download(page: Page) -> None:
     with page.expect_download() as download_i:
         page.locator("//a[text()='selenium.txt']").click()
     dl = download_i.value
-
     print(dl.path())
 
     page.wait_for_timeout(5000)

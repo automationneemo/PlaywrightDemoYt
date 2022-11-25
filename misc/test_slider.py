@@ -7,7 +7,7 @@ def test_horizontal_slider(page: Page) -> None:
     slider = page.locator("div.sliderContainer input")
     slider_point = page.locator("#range")
 
-    range_max = '2.5'
+    range_max = '4'
 
     slider.click()
     while True:
