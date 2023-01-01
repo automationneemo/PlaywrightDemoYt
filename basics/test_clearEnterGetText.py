@@ -11,7 +11,7 @@ def test_example(page: Page) -> None:
 
     # Go to https://the-internet.herokuapp.com/login
     page.goto("https://the-internet.herokuapp.com/login")
-    page.locator("#username").fill("username1")
+    page.locator("#username").fill("username1", timeout=90000)
     # Clear input field
     # page.locator("#username").fill("")
     clear_input_text(page, '#username')
